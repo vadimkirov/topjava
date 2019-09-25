@@ -29,16 +29,6 @@ public class UserMealsUtil {
 
     public static List<UserMealWithExceed>  getFilteredWithExceeded(List<UserMeal> mealList, LocalTime startTime, LocalTime endTime, int caloriesPerDay) {
         // TODO return filtered list with correctly exceeded field
-//
-//        List<UserMeal> mealsExceed = mealList.stream().filter((p) -> p.getDateTime().toLocalTime().isAfter(startTime)
-//                && p.getDateTime().toLocalTime().isBefore(endTime) && p.getCalories() > caloriesPerDay ).collect(Collectors.toList());
-//
-//        List<UserMealWithExceed> result = new ArrayList<>();
-//
-//        for (UserMeal  user: mealsExceed) {
-//
-//           result.add(new UserMealWithExceed(user.getDateTime(),user.getDescription(),user.getCalories(),true));
-//        }
         return null;
     }
 }
